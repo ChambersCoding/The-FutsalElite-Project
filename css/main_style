@@ -1,0 +1,353 @@
+
+body {
+
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+  background: none !important;
+	line-height: 20px !important;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	
+	-webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+	align-items: stretch;
+
+
+}
+
+@font-face {
+  font-family: 'ag_stencil';
+  src: url('ag_stencil.eot'); /* IE9 Compat Modes */
+  src: url('ag_stencil.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ag_stencil.woff2') format('woff2'), /* Super Modern Browsers */
+       url('ag_stencil.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/ag_stencil.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ag_stencil.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'welcome_me';
+  src: url('welcome_me.eot'); /* IE9 Compat Modes */
+  src: url('welcome_me.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('welcome_me.woff2') format('woff2'), /* Super Modern Browsers */
+       url('welcome_me.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/welcome_me.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('welcome_me.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+h1 {
+
+font-family:ag_stencil;
+font-size:50px;
+color:black;
+margin:5px;
+margin-left: 0px;
+
+}
+
+h2 {
+
+font-family:ag_stencil;
+font-size:35px;
+color:black;
+margin:5px;
+margin-left: 0px;
+
+}
+
+h3 {
+
+font-family:ag_stencil;
+font-size:23px;
+color:black;
+margin:5px;
+margin-left: 0px;
+
+}
+
+p, strong {
+
+color:black;
+font-size:16px;
+/*text-align: justify;*/
+font-family:welcome_me !important;
+
+}
+
+ul.container_list strong {
+
+margin-left: -24px;
+  
+}
+
+.maincontainer {
+
+/*width:1000px; */
+margin:0 auto; 
+margin-top: 10px;
+background: white;
+padding:10px;
+
+}
+
+a {
+
+text-decoration: none;
+
+}
+
+
+
+html { 
+  background: url(../images/futsalelite_bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+footer {
+margin-top: 70px;
+padding: 10px;
+float: left;
+width: 100%;
+}
+
+footer div {
+padding: 10px;
+background: black;
+margin: -21px;
+}
+
+footer p {
+
+color:rgb(255, 229, 0);
+
+
+}
+
+
+/*start of coach description styling which is found on aboutus.php, ourcoaches page*/
+
+.outer_container {
+
+width:95%; 
+height:270px;
+/*background: #F8F8F8;*/
+/*padding:20px;*/
+margin-bottom:45px;
+height:850px;
+
+}
+
+.inner_container
+
+{
+
+width:72%;
+padding-right:10px;
+float:left;
+
+}
+
+.subcontainer
+{
+width: 25%; 
+float: left; 
+padding-right: 10px;
+
+}
+
+
+.inner_subcontainer {
+
+ width: 96%; 
+ background: rgb(255, 229, 0); 
+ float: left; 
+ padding: 0px 0px 10px 20px;  
+ /*height: 270px;*/
+ margin-top: 10px;
+ border-radius: 30px 30px 30px 30px;
+}
+
+.outer_container img {
+
+width:100%;
+/*height:275px;*/
+padding-right:10px; 
+float:left;
+}
+
+ ul.container_list {
+    list-style-image: url('../images/icons/footballicon.png');
+    color:black;
+    padding-left:20px;
+    margin-top:0px;
+    width: 100%;
+}
+
+.container_list li{
+
+color:black;
+font-size:16px;
+text-align: justify;
+font-family:welcome_me !important;
+
+
+
+}
+
+
+
+/*end of coach description styling */
+
+
+/*start of professional quotes div styling which is found on aboutus.php page*/
+
+
+.professionalquotes {
+
+ float:left; 
+ width:200px;  
+ padding:15px; 
+ margin-right: 20px;
+ background: rgb(255, 229, 0); 
+ height: 363px;
+ margin-bottom:10px;
+ border-radius: 30px 30px 30px 30px;
+}
+
+
+.professionalquotes img {
+
+width:100px; 
+height:100px; 
+float:left;
+padding-right:20px;
+
+}
+
+
+/*end of professional quotes div */
+
+
+
+.training_testimonials {
+
+overflow-y:auto; 
+width:100%; 
+height:700px;
+
+
+}
+
+.training_testimonials blockquote {
+
+margin:0px 10px 30px 0px; 
+background:rgb(255, 229, 0); 
+border-radius: 30px 30px 30px 30px; 
+padding:10px;
+
+
+}
+
+.training_testimonials blockquote p cite
+{
+
+padding-left:10px;
+font-weight:700;
+
+}
+
+
+
+/*form styling which is found on the contactus.php page*/
+
+.contactus_yellow {
+	width: 94%;
+    background: #F8F8F8;
+    padding: 30px 30px 20px 30px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.contactus_yellow h1 {
+    font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 20px 0px 20px 40px;
+    display: block;
+    margin: -30px -30px 10px -30px;
+    color: #000;
+    background: rgb(255, 229, 0) ;
+    text-shadow: 1px 1px 1px #949494;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+
+}
+.contactus_yellow h1>span {
+    display: block;
+    font-size: 11px;
+    color: #000;
+}
+
+.contactus_yellow label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.contactus_yellow label>span {
+    float: left;
+    margin-top: 10px;
+    color: #5E5E5E;
+}
+.contactus_yellow input[type="text"], .contactus_yellow input[type="email"], .contactus_yellow textarea, .contactus_yellow select {
+    color: #555;
+    height: 30px;
+    line-height:15px;
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+    margin-top: 2px;
+    border: 1px solid #E5E5E5;
+    background: #FBFBFB;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    font: normal 14px/14px Arial, Helvetica, sans-serif;
+}
+.contactus_yellow textarea{
+    height:300px;
+    padding-top: 10px;
+}
+.contactus_yellow select {
+    background: url('down-arrow.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%);
+    background: url('down-arrow.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#E9E9E9));
+   appearance:none;
+    -webkit-appearance:none; 
+   -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width:100%;
+    height:30px;
+}
+.contactus_yellow .button {
+    background-color: rgb(255, 229, 0) ;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-border-radius: 5px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #000;
+    text-shadow: 1px 1px 1px #949494;
+}
+.contactus_yellow .button:hover {
+    background-color:black;
+    color:white;
+}
+
+
+
