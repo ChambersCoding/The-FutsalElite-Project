@@ -1,0 +1,43 @@
+ #testimonials {
+width:100% !important;
+background: black url(images/bg-testimonials.png) left top repeat-x;
+/*border:1px solid #D8D9D6;*/
+margin:10px 0;
+
+}
+#testimonials blockquote{
+padding:10px;
+width:100% !important;
+height:200px ;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-style:italic;
+color:white;
+display:block;
+}
+
+ #testimonials blockquote p{
+margin: 0 !important;
+width:100%;
+color: white;
+/*padding-left: 110px;*/
+
+}
+#testimonials blockquote cite {
+font-style: normal;
+display: block;
+
+text-transform: uppercase;
+font-weight: bold;
+font-style:italic;
+color: rgb(255, 229, 0);
+padding-left:5px;
+margin-top:10px;
+}
+
+.nav { margin: 5px 0 }
+
+#nav2 a, #s7 strong { margin: 0 5px; padding: 3px 5px; border: 1px solid #ccc; background: #fc0; text-decoration: none }
+
+#nav2 a.activeSlide { background: #ea0 }
+
+#nav2 a:focus { outline: none; }
