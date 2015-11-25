@@ -1,0 +1,53 @@
+
+ 
+<?php 
+
+include 'includes/head.php';
+include 'includes/menu.php';
+
+?>	
+
+    <script type="text/javascript" src="js/jquery.e-calendar.js"></script>
+    <script type="text/javascript" src="js/e-calendar.js"></script>
+    <link rel="stylesheet" href="css/jquery.e-calendar.css"/>
+
+
+<div class="maincontainer col-lg-10 col-md-10 col-sm-10 col-xs-10" style="height:900px"><!--  maincontainer starts here -->
+<div class="col-xs-12 col-sm-6 col-md-7">
+<h1>Holiday Practice Clubs</h1>
+
+    <p>Futsal Elite’s fun, unique, creative and imaginative Holiday Practice Clubs injects quality skills, game awareness and speed into player’s blood, mind, body and soul.
+    Players will experience fun through practicing their Agility, Balance and Co-ordination.
+    We emphasise on greater concentration, responsiveness, the improvement of skilful dribbling, accurate passing and ball control.</p>
+    
+    
+
+    <img src="images/holidayclubs/1.png" style="width: 210px; height: 160px; padding: 0px 20px 20px 0px;">
+    <img src="images/holidayclubs/2.png" style="width: 210px; height: 160px; padding: 0px 20px 20px 0px;">
+    <img src="images/holidayclubs/3.png" style="width: 210px; height: 160px; padding: 0px 20px 20px 0px;">
+    <img src="images/holidayclubs/4.png" style="width: 210px; height: 160px; padding: 0px 20px 20px 0px;">
+   
+
+    <p>Our Practice Clubs are a cost effective way of ensuring children spend their school holidays in an active environment, 
+    away from TV and computer games. Keeping them fit, healthy and NEVER bored!</p> 
+
+    <p>Welcoming players of all abilities, we encourage beginners as well as nurturing our country's elite mavericks!</p>
+
+    <strong>Location:</strong>
+    <p>Rutlish School<br>
+    Mostyn Road entrance<br>
+    Wimbledon<br>
+    London<br>
+    SW19 3LN</p>
+
+
+    </div>
+
+    <div class="col-xs-0 col-sm-6 col-md-5" id="calendar" ></div>
+
+
+<?php include 'includes/footer.php'; ?>
+	
+</div><!--  maincontainer ends here -->
+
+ 
