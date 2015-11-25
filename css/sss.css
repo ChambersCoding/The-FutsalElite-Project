@@ -1,0 +1,90 @@
+.sss {
+	height: 0;
+	margin: 0; 
+	padding: 0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.ssslide {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;
+	height:550px;
+}
+
+.ssslide img {
+	max-width: 100%;
+	min-height: 550px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+
+.sssnext, .sssprev {
+	width: 25px;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	background: url('../images/icons/arrows.png') no-repeat;
+}
+
+.sssprev {
+	left: 3%;
+	background-position: 0 50%;
+}
+
+.sssnext {
+	right: 3%;
+	background-position: -26px 50%;
+}
+
+.sssprev:hover, .sssnext:hover {
+	cursor: pointer;
+}
+
+.title {
+  width: 100%;
+  display: block;
+ font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  z-index: 1000;
+}
+
+.background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	filter:alpha(opacity=85);
+    	-moz-opacity:0.85;
+    	-khtml-opacity: 0.85;
+    	opacity: 0.85;
+    z-index: -1;	
+}
+
+.black {
+	color: #FFF;
+	background: black;
+}
+
+.dark, .dark .feature {
+	color: #FFF;
+}
+
+.dark a {
+	color: #FFF;
+	font-weight: 900;
+}
